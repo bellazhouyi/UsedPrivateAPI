@@ -14,6 +14,7 @@
 		36CE1BB3206A320B00179D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36CE1BB1206A320B00179D2D /* LaunchScreen.storyboard */; };
 		36CE1BB6206A320B00179D2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE1BB5206A320B00179D2D /* main.m */; };
 		36CE1BC1206A32DA00179D2D /* ZYTIInputModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE1BC0206A32DA00179D2D /* ZYTIInputModeController.m */; };
+		36CE1BC7206A360800179D2D /* ZYLSApplicationWorkspace.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE1BC6206A360800179D2D /* ZYLSApplicationWorkspace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		36CE1BB5206A320B00179D2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36CE1BBF206A32DA00179D2D /* ZYTIInputModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTIInputModeController.h; sourceTree = "<group>"; };
 		36CE1BC0206A32DA00179D2D /* ZYTIInputModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTIInputModeController.m; sourceTree = "<group>"; };
+		36CE1BC5206A360800179D2D /* ZYLSApplicationWorkspace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLSApplicationWorkspace.h; sourceTree = "<group>"; };
+		36CE1BC6206A360800179D2D /* ZYLSApplicationWorkspace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLSApplicationWorkspace.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		36CE1BA5206A320B00179D2D /* UsedPrivateAPI */ = {
 			isa = PBXGroup;
 			children = (
+				36CE1BC2206A35E700179D2D /* Frameworks */,
 				36CE1BBC206A328A00179D2D /* PrivateFrameworks */,
 				36CE1BA6206A320B00179D2D /* AppDelegate.h */,
 				36CE1BA7206A320B00179D2D /* AppDelegate.m */,
@@ -98,6 +102,31 @@
 				36CE1BC0206A32DA00179D2D /* ZYTIInputModeController.m */,
 			);
 			path = TIInputModeController;
+			sourceTree = "<group>";
+		};
+		36CE1BC2206A35E700179D2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36CE1BC3206A35E700179D2D /* MobileCoreServices */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		36CE1BC3206A35E700179D2D /* MobileCoreServices */ = {
+			isa = PBXGroup;
+			children = (
+				36CE1BC4206A35E700179D2D /* LSApplicationWorkspace */,
+			);
+			path = MobileCoreServices;
+			sourceTree = "<group>";
+		};
+		36CE1BC4206A35E700179D2D /* LSApplicationWorkspace */ = {
+			isa = PBXGroup;
+			children = (
+				36CE1BC5206A360800179D2D /* ZYLSApplicationWorkspace.h */,
+				36CE1BC6206A360800179D2D /* ZYLSApplicationWorkspace.m */,
+			);
+			path = LSApplicationWorkspace;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +202,7 @@
 			files = (
 				36CE1BAB206A320B00179D2D /* ViewController.m in Sources */,
 				36CE1BC1206A32DA00179D2D /* ZYTIInputModeController.m in Sources */,
+				36CE1BC7206A360800179D2D /* ZYLSApplicationWorkspace.m in Sources */,
 				36CE1BB6206A320B00179D2D /* main.m in Sources */,
 				36CE1BA8206A320B00179D2D /* AppDelegate.m in Sources */,
 			);
